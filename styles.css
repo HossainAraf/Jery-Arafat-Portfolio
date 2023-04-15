@@ -1,7 +1,8 @@
 
 
 *{margin:0;padding:0}
-body{font-family:georgia !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;background:#000;}
+body{
+	background-color: white; font-family:georgia !important; transition:all 0.5s ease;-webkit-transition:all 0.5s ease;-moz-transition:all 0.5s ease;background:#000;}
 button, input, optgroup, select, textarea{font-family:georgia !important;}
 body, html{height:100%;}
 img{max-width:100%}
@@ -20,4 +21,15 @@ span{font-size:12px;}
 
 tx_justify{
 	text-align:justify
+}
+#welcome-section {
+     text-align: center;
+	 display: flex;
+	 overflow: auto;
+}
+.nav {
+ top: 0;
+ left: 0;
+ position: fixed;
+ width: 100%;
 }
